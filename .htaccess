@@ -1,0 +1,13 @@
+# HTID:2374111: DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
+php_value display_errors 1
+# DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:2374111:
+<Files .htaccess>
+order allow,deny
+deny from all
+</Files>
+<Files database.php>
+deny from all
+</Files>
+ErrorDocument 404 /notfound.html
+ErrorDocument 403 /forbidden.html
+Options -Indexes

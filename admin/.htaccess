@@ -1,0 +1,10 @@
+<Files .htaccess>
+order allow,deny
+deny from all
+</Files>
+<Files page_views_chart.php>
+deny from all
+</Files>
+<Files utilities.php>
+deny from all
+</Files>

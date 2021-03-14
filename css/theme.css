@@ -1,0 +1,846 @@
+/* CSS Theme */
+/*Fix for bootstrap carousel bug which flickers font on carousel slide*/
+.carousel-inner {
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000px;
+}
+
+/* Custom Bootstrap navbar theme */
+.navbar-default {
+    background-color: #20529E;
+    border-color: #20529E;
+}
+.navbar-fixed-top{
+    -webkit-backface-visibility:hidden;
+}
+.navbar-default .navbar-brand {
+    color: #FFFFFF;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #FFFFFF;
+}
+.navbar-default .navbar-text {
+    color: #000000;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #FFFFFF;
+}
+.navbar-default .navbar-nav > li > a:hover {
+    color: #FFCC33;
+}
+.navbar-default .navbar-nav > li > a:focus {
+    color: #FFFFFF;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #20529E;
+    background-color: #EEEEEE;
+}
+.navbar-default .navbar-toggle {
+    border-color: #EEEEEE;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #3366CC;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #FFFFFF;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+    border-color: #003399;
+}
+.dropdown-menu {
+    background-color: #FFFFFF;
+}
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:focus {
+    color: #FFFFFF;
+    background-color: #3383FF;
+}
+/* Header Style in drop down items of navbar */
+.dropdown-header{
+    color:#0066CC;
+    text-transform: none;
+    letter-spacing: 1px;
+}
+@media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #eceff1;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #ffffff;
+        background-color: #3383FF;
+    }
+    .dropdown-header{
+        color:#FFCC33;
+        text-transform: uppercase;
+    }
+}
+/*END NAVBAR THEME*/
+
+/* Collage name Style */
+.clg-name {
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+}
+
+/* Affiliation Style */
+.affiliation {
+    font-size: 12px;
+    font-family: 'arial', serif;
+    color: #FFCC33;
+    letter-spacing: 2px;
+}
+
+/* Header Style */
+.header {
+    color: #FFFFFF;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    background-color: #0066CC;
+    text-align: center;
+}
+
+/* College Logo Style */
+.logo {
+    width: 40px;
+    height: 42px;
+}
+
+/* College Name Header Container Style */
+.header-box {
+    margin-top: 50px;
+}
+
+/* Date Theme */
+.date {
+    font-size: 8px;
+    color: #FFFFFF;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+/* Picture slider Caption Style*/
+.slider-caption {
+    font-size: 12px;
+    padding: 0px;
+    margin-bottom: 20px;
+    background-color: grey;
+    letter-spacing: 1px;
+    font-family: 'arial', serif;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+    /* For IE8 and earlier */
+}
+
+/* Horizontal Row separator style */
+hr.hr-divider {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #DDDDDD;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/* Marquee Style */
+.marquee {
+    overflow: hidden;
+    position: relative;
+}
+.marquee .marquee-item {
+    position: absolute;
+    top: 0px;
+}
+
+/* Homepage Showcase (Panels) Style */
+.showcase {
+    display: block;
+    border-color: #20529E;
+    border-style: solid;
+    border-width: 2px;
+    border-left: none;
+    border-right: none;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+/* Homepage Showcase (Panels) Header Style */
+.showcase-head {
+    display: block;
+    color: #FFFFFF;
+    background-color: #20529E;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-family: 'Trebuchet MS', serif;
+    padding: 5px;
+}
+
+/* Link Style */
+.my-link {
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #337AB7;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+.my-link:hover {
+    color: #339900;
+    text-decoration: underline;
+}
+
+/* Showcase Link Style (used in Notifications and Downloads showcase on Homepage)*/
+.showcase-link {
+    font-size: 14px;
+    font-family: arial,serif;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #222222;
+}
+.showcase-link:hover {
+    color: #20529E;
+    text-decoration: none;
+}
+/*Footer top bar */
+.footer-top-bar{
+    background-color:#20529E;
+    min-height:25px;
+}
+/*Footer link container*/
+.footer-link-container{
+    background-color:#0066CC;
+    margin-top:2px;
+    margin-bottom:2px;
+}
+/*Footer Bottom Bar*/
+.footer-bottom-bar{
+    background-color:#20529E; 
+    color:#FFFFFF;
+    font-size:13px; 
+    letter-spacing:1px;
+    padding-top:4px;
+    min-height:25px;
+}
+/*Footer List and Sublist Style*/
+.footer-list {
+    list-style: none;
+    margin: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.footer-sub-list {
+    list-style-type: square;
+    color: #CCCCCC;
+}
+
+/* Footer Link Style */
+.footer-head {
+    font-family: "Trebuchet MS", serif;
+    color: #FFFFFF;
+    font-size: 14px;
+    text-decoration: underline;
+    text-align: left;
+}
+a.footer-head:hover {
+    color: #FFCC33;
+}
+a.footer-link {
+    font-family: "Trebuchet MS",serif;
+    color: #CCCCCC;
+    font-size: 12px;
+    text-decoration: none;
+}
+a.footer-link:hover {
+    color: #FFFF33;
+}
+
+/* AlertBox head and body theme
+(Used in Homepage Updates)*/
+.alert-head {
+    background-color: #0066CC;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 14px;
+    font-family: arial,serif;
+    font-weight: bold;
+    padding: 2px;
+    border-radius: 0px;
+}
+.alert-body {
+    background-color: #DDDDDD;
+    color: #0066CC;
+    font-size: 14px;
+    font-family: arial,serif;
+    padding: 2px;
+    margin-left: 0px;
+    text-align: left;
+    border-radius: 0px;
+}
+.alert-link:link{
+    color : #0066cc;
+    text-decoration: none;
+}
+.alert-link:hover{
+    color : #4cae4c;
+    text-decoration: none;
+}
+
+/* Single Line List Style */
+ul.inline-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ul.inline-list > li {
+    display: inline;
+}
+
+/* Photo Gallery Picture Max-Height */
+.gallery-pic {
+    max-height: 139px;
+}
+.gallery-pic:hover {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #0066CC;
+}
+
+
+/* Homepage Patronage Section maximum height */
+.patronage-section {
+	font-family:'Trebuchet MS',serif;
+    color:#FFFFFF;
+    max-height: 280px;
+}
+
+/* Maximum size of picture in the patronage section */
+.patronage-photo {
+    max-height: 80px;
+}
+
+
+/* Page Container Style */
+.page-container{
+    background-color:#20529E;
+    border-color:#20529E;
+    border-width:thick;
+    border-style: solid;
+    margin-top:5px;
+}
+/*Page Heading Style*/
+.page-header{
+    background-color:#20529E;
+    border:none;
+    font-family: 'arial',serif;
+    font-size:12px;
+    padding:5px;
+	margin-top:0px;
+    margin-bottom: 0px;
+    color:#FFFFFF;
+}
+/* Page Header Link */
+.page-header > a.page-header-link{
+    color:#FFFFFF;
+    display:inline;
+}
+.page-header > a.page-header-link:hover{
+    color: #FFCC33;
+}
+/* Adjusts width of Page Logo (long shadow) */
+.page-logo{
+    margin:0 auto;
+    height:80px;
+}
+/*Page Body Theme */
+.page-body {
+    color:#333333;
+    background-color:#FFFFFF; 
+    padding:15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    font-size: 14px;
+    font-family: 'Trebuchet MS', serif;
+    border: none;
+}
+/*Page Content Theme*/
+.page-content{
+    color:#000000;
+    padding:20px; 
+    text-align:justify;
+    background-color:#EEEEEE;
+}
+/*Page Content Heading*/
+.page-content-heading{
+    color:#20529E;
+    text-align:left;
+}
+/*Small Heading*/
+.sm-heading{
+    font-size:16px;
+}
+/*Medium Heading Style*/
+.md-heading {
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    padding:2px;
+    font-family: 'Trebuchet MS',serif;
+}
+
+/*large Heading Style*/
+.lg-heading {
+    font-size: 19px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding:2px;
+    font-family: 'Trebuchet MS',serif;
+}
+/*bar headers style*/
+.bar-header{
+    background-color:#3366CC;
+    color:#FFFFFF;
+    padding-left:15px;
+}
+.collapsed-header:after {
+    font-family: "FontAwesome";
+    content: " \f078";
+    float:right;
+    margin-right:10px;
+}
+.collapsed-header.collapsed:after{
+    content: " \f054";
+}
+/*Maharaja Photo style*/
+.img-maharaja{
+    height:250px;
+}
+/*Opaque Block style
+.opaque-block{
+    background-color: #ffffff;
+    color: #333333;
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+    /* For IE8 and earlier 
+    padding:15px;
+    font-size: 15px;
+    font-family: 'Trebuchet MS';
+    border: none;
+}*/
+
+/*relative container style*/
+.rel-container{
+    position:relative;
+    min-height:250px;
+}
+/* centered content style */
+.center-content{
+    position:absolute;
+    left:0;
+    top:0;
+    width:100%;
+    text-align:left;
+}
+/* Address tag style */
+address{
+    font-size:15px;
+    letter-spacing:1px;
+    font-weight:bold; 
+    color:#444444;
+    text-align:center;
+    background-color:#DDDDDD;
+}
+/* Style for google map on contact page*/
+.map{
+    border:0;
+    width:100%;
+    height:220px;
+}
+
+/*Scholarship table style*/
+table.tbl, td.tbl-item, th.tbl-item{
+    border:1px solid #FFFFFF;
+    font-size:14px;
+    font-family:'arial',serif;
+    text-align:left;
+}
+table.tbl{
+    border-collapse:collapse;
+    width: 100%;
+}
+td.tbl-item, th.tbl-item{
+    border:1px solid #FFFFFF;
+    background-color:#EEEEEE;
+    padding: 5px;
+}
+th.tbl-item{
+    background-color:#DDDDDD;
+}
+/*Custom Order list style */
+.o-list{
+    margin-top:5px;
+    text-align: left;
+}
+.o-list > li{
+    margin:5px;
+}
+/* Photo Gallery page title style */
+.xl-heading{
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-family: 'arial', serif;
+    text-align:center;
+}
+/* Photo Gallery thumbnail bottom margin style*/
+.thumb {
+    margin-bottom: 15px;
+}
+/* Pagination Buttons Style */
+.pagination-btn, 
+.pagination-btn-disabled, 
+.pagination-btn:focus{
+    display: block;
+    text-align:center;
+    font-size:15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    width:100%;
+    font-family:'arial', serif;
+    font-weight: 600;
+    padding:5px;
+    background-color:#0066cc;
+    color:#ffffff;
+    text-decoration:none;
+}
+.pagination-btn-disabled , 
+.pagination-btn-disabled:hover, 
+.pagination-btn-disabled:focus{
+	background-color:#BBBBBB;
+    color:#666666;
+    text-decoration:none;
+}
+.pagination-btn:hover{
+    color:#ffffff;
+    background-color:#3399FF;
+    text-decoration:none;
+}
+/*Timestamp Style*/
+.timestamp{
+    font-size:11px;
+    font-family: 'MS Trebuchet', 'arial', serif;
+    color:#666666;
+}
+
+/*Download Button Style*/
+.green-btn, .green-btn:link{
+    font-size:12px;
+    font-family:'arial', serif;
+    background-color:#66CC66;
+    color:#FFFFFF;
+    padding:8px;
+    border-radius:5px;
+    text-decoration: none;
+    margin-right:10px;
+}
+.green-btn:hover, .green-btn:active{
+    text-decoration: none;
+    background-color: #33CC33;
+    color:#FFFFFF;
+}
+/*Calender Panel Style*/
+.calender-panel{
+    height:auto;
+    padding-bottom:5px;
+    background-color:#DDDDDD;
+    margin-bottom:5px;
+}
+/*Calender Header Style*/
+.calender-header{
+    text-align:center;
+    font-weight:bold;
+    font-size:20px;
+    background-color:#666666;
+    color:#FFFFFF;
+}
+/*Calender List Style*/
+.calender-list{
+    margin-top:10px;
+    margin-right:10px;
+    margin-bottom:10px;
+}
+/* JQuery Marquee Plugin Style */
+.marquee {
+    overflow: hidden;
+    border: none;
+}
+/* Person info panel */
+.person-info-panel{
+    border: 1px solid #DDDDDD;
+    padding:5px;
+    margin-bottom:10px;
+}
+.info-panel-text {
+    font-size: 12px;
+    font-family: 'arial', serif;
+}
+/*Developer Name style*/
+.dev-name{
+    color:#003366;
+    font-size:18px;
+}
+/*Developer Profile link icon style*/
+.dev-profile:link{
+    color:#0066cc;
+}
+.dev-profile:hover{
+    color:#4cae4c;
+}
+/*Home page tabs container style*/
+.tab-container{
+    text-align:justify;
+    font-family:'Trebuchet MS',serif;
+    height:auto;
+}
+
+/*Profile photo style*/
+.profile-pic{
+    height:100px;
+}
+
+/*Media Queries*/
+/* Media query for small size or above devices*/
+
+@media(min-width:768px) {
+    .slider-caption {
+        margin-bottom: 30px;
+    }
+    .clg-name {
+        font-size: 16px;
+        letter-spacing: 8px;
+    }
+    .logo {
+        width: 45px;
+        height: 46px;
+    }
+    .date {
+        font-size: 10px;
+    }
+    .header-box {
+        margin-top: 100px;
+    }
+    .slider-caption {
+        font-size: 18px;
+    }
+    .affiliation {
+        font-size: 12px;
+        letter-spacing: 2px;
+    }
+    .sm-heading{
+        font-size:20px;
+    }
+    .md-heading {
+        font-size: 19px;
+    }
+    .lg-heading {
+        font-size: 21px;
+    }
+    .alert-info{
+        font-family:serif;
+    }
+    .alert-head {
+        padding: 3px;
+        font-size: 16px;
+        border-radius: 10px;
+    }
+    .alert-body {
+        padding: 3px;
+        font-size: 16px;
+        border-radius: 10px;
+    }
+    .img-maharaja{
+        height:300px;
+    }
+    .page-header{
+        font-size:16px;
+    }
+    .page-logo{
+        height:100px;
+    }
+    .page-body{
+        font-size: 15px;
+    }
+    .rel-container{
+        min-height:350px;
+    }
+    address{
+        font-size:22px;
+        letter-spacing:2px;
+    }
+    .map{
+        height:300px;
+    }
+    .xl-heading{
+        font-size: 30px;
+        letter-spacing: 2px;
+        text-align:left;
+    }
+    .green-btn{
+        margin-right:20px;
+    }
+    .profile-pic{
+        height:120px;
+    }
+}
+/* Fix for Navigation Drawer top margin */
+@media(min-width:1001px) {
+    .header-box {
+        margin-top: 50px;
+    }
+}
+/* Media query for medium size or above devices*/
+
+@media(min-width:992px) {
+    .slider-caption {
+        margin-bottom: 40px;
+    }
+    .clg-name {
+        font-size: 25px;
+        letter-spacing: 9px;
+    }
+    .logo {
+        width: 50px;
+        height: 52px;
+    }
+    .date {
+        font-size: 10px;
+    }
+    .slider-caption {
+        font-size: 19px;
+    }
+    .affiliation {
+        font-size: 13px;
+        letter-spacing: 2px;
+    }
+    .md-heading {
+        font-size: 21px;
+    }
+    .lg-heading {
+        font-size: 23px;
+    }
+    .alert-head {
+        padding: 4px;
+        font-size: 18px;
+        border-radius: 15px;
+    }
+    .alert-body {
+        padding: 4px;
+        font-size: 18px;
+        border-radius: 15px;
+    }
+    .img-maharaja{
+        height:350px;
+    }
+    .page-header{
+        font-size:18px;
+    }
+    .page-logo{
+        height:120px;
+    }
+    .page-body{
+        font-size: 16px;
+    }
+    .rel-container{
+        min-height:450px;
+    }
+    address{
+        font-size:22px;
+        letter-spacing:2px;
+    }
+    .map{
+        height:400px;
+    }
+    .xl-heading{
+        font-size: 40px;
+        letter-spacing: 3px;
+    }
+    .calender-panel{
+        height:250px;
+    }
+    .profile-pic{
+        height:130px;
+    }
+}
+/* Media query for large size or above devices*/
+
+@media(min-width:1200px) {
+    .slider-caption {
+        margin-bottom: 50px;
+    }
+    .clg-name {
+        font-size: 30px;
+        letter-spacing: 10px;
+    }
+    .logo {
+        width: 52px;
+        height: 55px;
+    }
+    .date {
+        font-size: 12px;
+    }
+    .header-box {
+        margin-top: 50px;
+    }
+    .slider-caption {
+        font-size: 25px;
+        letter-spacing: 2px;
+    }
+    .affiliation {
+        font-size: 15px;
+        letter-spacing: 2px;
+    }
+    .sm-heading{
+        font-size:22px;
+    }
+    .md-heading {
+        font-size: 23px;
+    }
+    .lg-heading {
+        font-size: 25px;
+    }
+    .alert-head {
+        padding: 5px;
+        font-size: 20px;
+    }
+    .alert-body {
+        padding: 5px;
+        font-size: 20px;
+    }
+    .showcase-link {
+        font-size: 15px;
+    }
+    .patronage-photo {
+        max-height: 100px;
+    }
+    .page-header{
+        font-size:20px;
+    }
+    .calender-panel{
+        height:280px;
+    }
+    .profile-pic{
+        height:150px;
+    }
+}

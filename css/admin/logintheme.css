@@ -1,0 +1,112 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body{
+    padding-top: 90px;
+    background:#003366;
+    color:#0066cc;
+    font-family: 'Roboto', sans-serif;
+    font-weight:100;
+}
+
+body{
+    width: 100%;
+    background: -webkit-linear-gradient(left,#049BCD, #0066FF, #049BCD, #0066FF);
+    background: linear-gradient(to right, #049BCD, #0066FF, #049BCD, #0066FF);
+    background-size: 600% 100%;
+    -webkit-animation: HeroBG 20s ease infinite;
+    animation: HeroBG 20s ease infinite;
+}
+.panel-login {
+    border: 3px solid #EEEEEE;
+}
+ul.panel-alert{
+    font-size:14px;
+    list-style-type: square;
+}
+.panel-login>.panel-heading {
+    color: #FFFFFF;
+    background-color: #003366;
+    border: none;
+    text-align:center;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom: 0px;
+    padding: 0px 15px;
+}
+.panel-login .form-group {
+    padding: 0 30px;
+}
+
+.input-label{
+    color:#0066cc;
+    font-size:18px;
+}
+
+.panel-login input[type="text"],.panel-login input[type="email"],.panel-login input[type="password"] {
+    color:#0066cc;
+    height: 45px;
+    border: 0;
+    font-size: 18px;
+    -webkit-transition: all 0.1s linear;
+    -moz-transition: all 0.1s linear;
+    transition: all 0.1s linear;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-bottom: 1px solid #e7e7e7;
+    border-radius: 0px;
+    padding: 6px 0px;
+}
+.panel-login input:hover,
+.panel-login input:focus {
+    outline:none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border-color: #0066cc;
+}
+
+.btn-login{
+    background-color: #0066cc;
+    outline: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    height: auto;
+    font-weight: normal;
+    padding: 12px 0;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+    box-shadow: none;
+}
+
+.btn-login:hover,
+.btn-login:focus {
+    color: #FFFFFF;
+    background-color: #0088FF;
+}
+
+@-webkit-keyframes HeroBG {
+    0% {
+        background-position: 0 0;
+    }
+    50% {
+        background-position: 100% 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
+
+@keyframes HeroBG {
+    0% {
+        background-position: 0 0;
+    }
+    50% {
+        background-position: 100% 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
